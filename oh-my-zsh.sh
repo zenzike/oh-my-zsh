@@ -74,3 +74,4 @@ else
   fi
 fi
 
+xset +fp ~/.fonts

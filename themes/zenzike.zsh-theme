@@ -1,7 +1,7 @@
 # ZSH Theme
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
-local user_host='%F{black}%K{green}%n@%m%f%k%F{green}%{⮀%1G%}%f '
+local user_host='%B%F{22}%K{148}%n@%m%b%f%k%F{148}%{⮀%1G%}%f '
 local current_dir='%~ '
 local git_branch='$(git_prompt_info)'
 local pointer='%F{red}$%f '
